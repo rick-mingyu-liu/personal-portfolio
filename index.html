@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
   <title>Rick (Mingyu) Liu</title>
   <!-- styles reference -->
   <link rel="stylesheet" href="styles/general.css">
@@ -15,22 +16,27 @@
   <link rel="stylesheet" href="styles/contact.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- google font reference -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-
+  <header id="top">
     <div id="particles-js">
       <!-- navigation bar -->
       <div class="container">
         <nav>
           <ul>
-            <li><a class = "link" href="#">Home</a></li>
-            <li><a class = "link" href="#">Projects</a></li>
-            <li><a class = "link" href="#">Experience</a></li>
-            <li><a class = "link" href="#">Skills</a></li>
-            <li><a class = "link" href="#">Contact</a></li>
+            <li><a class = "link" href="#project">Projects</a></li>
+            <li><a class = "link" href="#experience">Experience</a></li>
+            <li><a class = "link" href="#skills">Skills</a></li>
+            <li><a class = "link" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -44,7 +50,8 @@
           <h1 class="greeting">Hi, I'm Rick</h1>
         </div>
         <div>
-          <h2 class="intro">Studying Math @ University of Waterloo </h2>
+          <h2 class="intro">Math Student @ University of Waterloo</h2>
+          <h3 class="intro">Looking for co-op in Fall 2024</h3>
         </div>
       </div>
       <!-- buttons -->
@@ -60,32 +67,41 @@
   </header>
   
   <main>
-    <section id="project">
-      <div>
-        <h1 class="main-title">My Projects</h1>
-      </div>
+    <section id="project" class="grid-container">
+      <div class="main-title">My Projects</div>
+      <div class="content">YouTube Clone</div>
+      <div class="content">Calculator</div>
+      <div class="content">Rock-Paper-Scissors</div>
     </section>
 
     <section id="experience">
-      <div>
-        <h1 class="main-title">My Experience</h1>
-      </div>
+        <div class="main-title">My Experience</div>
+        <!-- <div>Wuxi</div> -->
     </section>
 
     <section id="skills">
-      <div>
-        <h1 class="main-title">Technical Skills</h1>
-      </div>
+        <div class="main-title">Technical Skills</div>
+        <!-- <div>
+          I'm always looking to expand my skills and familiarize with new technologies and languages
+        </div> -->
+  
     </section>
 
     <section id="contact">
-      <div>
-        <h1 class="main-title">Contact Me</h1>
-      </div>
+    
+        <div class="main-title">Contact Me</div>
+        <!-- <div>Email</div>
+        <div>GitHub</div>
+        <div>LinkedIn</div> -->
+    
     </section>
   </main>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Home</button>
+  <button onclick="changeTheme()" id="themeBtn" title="Change Theme">
+    <span id="themeIcon">🌙</span></button>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/bottom_buttons.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </html>

@@ -1,7 +1,32 @@
 
-#project {
+#project
+{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    
+    justify-content: space-around;
     align-items: center;
-    height: 100vh; /* Adjust as needed */
+}
+
+.grid-container 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-title
+{
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: Bungee Spice;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    border: solid;
+    padding: 100px 200px;
 }
