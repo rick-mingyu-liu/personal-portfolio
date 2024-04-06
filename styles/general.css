@@ -16,7 +16,7 @@ body
     height: auto;
 }
 
-#myBtn 
+#homeBtn 
 {
     position: fixed; 
     bottom: 20px; 
@@ -33,7 +33,7 @@ body
     font-family: Bebas Neue;;
 }
   
-#myBtn:hover
+#homeBtn:hover
 {
         background-color: #555;
 }
