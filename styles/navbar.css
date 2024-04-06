@@ -59,17 +59,7 @@ nav ul li:hover::after
     opacity: 1;
 }
 
-.link
-{
-    color: inherit;   
-    text-decoration: none;   
-}
-  
-.link:visited 
-{
-    color: inherit;
-    text-decoration: none;
-}
+
 
 @media screen and (max-width: 768px) {
     #hero-heading {

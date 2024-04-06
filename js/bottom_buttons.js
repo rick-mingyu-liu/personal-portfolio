@@ -22,11 +22,13 @@ function changeTheme() {
   var themeIcon = document.getElementById('themeIcon');
   if (darkTheme) {
     body.style.backgroundColor = 'white';
+    body.classList.remove('dark-theme');
     themeIcon.textContent = '🌙'; // Moon icon for light theme
     darkTheme = false;
   } else {
     body.style.backgroundColor = '#313131';
     themeIcon.textContent = '☀'; // Sun icon for dark theme
+    body.classList.add('dark-theme');
     darkTheme = true;
   }
 }
