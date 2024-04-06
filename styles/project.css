@@ -13,31 +13,6 @@
     justify-content: flex-start;
 }
 
-.window
-{
-    margin: 50px 150px;
-    background-color: rgb(249, 243, 227);
-    border-radius: 40px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.window:hover 
-{
-    background-color: rgba(176, 176, 176, 0.1);
-}
-
-.dark-theme .window 
-{
-    background-color: rgb(151, 151, 255);
-    color: lightgrey;
-}
-
-
-.dark-theme .window:hover 
-{
-    background-color: rgba(175, 183, 245, 0.802); /* Lighter color for dark theme */
-}
-  
 
 .main-title
 {
