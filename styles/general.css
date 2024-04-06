@@ -103,6 +103,6 @@ body
 
 .dark-theme .window:hover 
 {
-    background-color: rgba(175, 183, 245, 0.802); /* Lighter color for dark theme */
+    background-color: rgba(189, 196, 249, 0.802); /* Lighter color for dark theme */
 }
   

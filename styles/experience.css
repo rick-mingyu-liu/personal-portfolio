@@ -1,6 +1,196 @@
-#experience {
+#project
+{
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    justify-content: flex-start;
     align-items: center;
-    height: 10vh;
+}
+
+#experience .main-title
+{
+    margin-top: 70px;
+    font-size: 60px;
+    font-family: Bungee Spice;
+    text-align: center;
+}
+
+.job-container
+{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.job-description:hover 
+{
+    background-color: rgba(176, 176, 176, 0.1);
+}
+
+.dark-theme .job-description
+{
+    background-color: rgb(151, 151, 255);
+    color: lightgrey;
+}
+
+
+.dark-theme .job-description:hover 
+{
+    background-color: rgba(189, 196, 249, 0.802); /* Lighter color for dark theme */
+}
+
+.job-description
+{
+    padding: 20px 30px;
+    position: relative;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: rgb(249, 243, 227);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.timeline
+{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.left-container
+{
+    left : 0; 
+}
+
+.right-container
+{
+    left: 50%;
+}
+
+.job-container img 
+{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 10;
+    right: -8%;
+}
+
+.right-container img
+{
+    left: -7.5%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #bfff1e;
+    left: 50%;
+    top: 0;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+.timeline.animate::after {
+    animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;  
+    }
+}
+
+
+.job-container:nth-child(1){
+    animation-delay: 0m;
+}
+.job-container:nth-child(2){
+    animation-delay: 1s;
+}
+.job-container:nth-child(3){
+    animation-delay: 1s;
+}
+
+.job-description h2
+{
+    font-weight: 400;
+}
+
+.job-description small
+{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.left-container-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-top: 15px solid transparent; 
+    border-left: 15px solid  rgb(249, 243, 227);
+    right: -15px;
+}
+
+.right-container-arrow
+{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-top: 15px solid transparent; 
+    border-right: 15px solid  rgb(249, 243, 227);
+    left: -15px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .timeline
+    {
+        margin: 50px auto;
+    }
+    .timeline::after
+    {
+        left: 31%;
+    }
+    .job-container
+    {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .job-description
+    {
+        font-size: 13px;
+    }
+    .job-description small
+    {
+        margin-bottom: 10px;
+    }
+    .right-container img
+    {
+        left: 0%;
+    }
+    .left-container img, .right-container img
+    {
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow
+    {
+        border-right: 15px solid  rgb(249, 243, 227);
+        border-left: 0;
+        left: -15px;
+    }
 }

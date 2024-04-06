@@ -32,7 +32,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+
+  </head>
 
 <body>
   <header id="top">
@@ -42,8 +43,8 @@
         <nav>
           <ul>
             <li><a class = "link" href="#project">Projects</a></li>
-            <li><a class = "link" href="#experience">Experience</a></li>
             <li><a class = "link" href="#skills">Skills</a></li>
+            <li><a class = "link" href="#experience">Experience</a></li>
             <li><a class = "link" href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -91,7 +92,7 @@
               </ul>
               <div class="description">This is a personal website that I created to showcase my projects and experiences. I used HTML, CSS, and JavaScript to create this website.</div>
               <div class="project-links link">
-                <a href="#" class="project-link-button" target="_blank">
+                <a href="#top" class="project-link-button">
                   <i class="fas fa-external-link-alt"></i> Live</a>
                 <a href="https://github.com/rick-mingyu-liu/personal-website" class="project-link-button" target="_blank">
                   <i class="fab fa-github"></i> Code</a>
@@ -181,17 +182,12 @@
     </section>
     
     <!-- Skills -->
-    <section id="skills">
-      
-      
-        
-      </div>
-
-  </section>
-
   <section id="skills">
     <div class="main-title">My Skills</div>
     <div class="window" data-aos="fade-in"> 
+      <div class="skills-intro">
+        <p>I'm always looking to expand my skills with new technologies and languages!</p>
+      </div>
       <ul class="skills-icons">
         
         <li>
@@ -252,29 +248,108 @@
 
         <li>
           <div class="skill-item">
+            <span class="iconify" data-icon="logos:r-lang" data-inline="false" data-width="90px" data-height="90px"></span>
+            <span class="icon-name">R</span>
+          </div>
+        </li>
+
+        <li>
+          <div class="skill-item">
             <span class="iconify" data-icon="logos:shopify" data-inline="false" data-width="90px" data-height="90px"></span>
             <span class="icon-name">Shopify</span>
           </div>
-        </li>          
+        </li>     
+        
+        
       </ul>
     </div>
+    
   </section>
 
     <!-- Experience -->
+    
     <section id="experience">
-        <div class="main-title">My Experience</div>
-        <!-- <div>Wuxi</div> -->
+      <div class="main-title">My Experience</div>
+        <div data-aos="fade-in"> 
+          <div class="timeline">
+
+            <div class="job-container left-container">
+              <img src="img/logo/wuxi.jpg" alt="">
+              <div class="job-description">
+                <h2>Cross-Border Trade Assistant</h2>
+                <small>2023.7 - 2023.9</small>
+                <p>Wuxi Dexin Steel Tube Co. Ltd.</p>
+                <p>• Went to Shenzhen for a business trip about AI training</p>
+                <p>• Learned how to build Shopify website and built one</p>
+                <p>• Made a summary document about the training and held a teaching session for colleague</p>
+                <span class="left-container-arrow"></span>
+              </div>
+            </div>
+            
+            <div class="job-container right-container">
+              <img src="img/logo/nanmo.jpg" alt="">
+              <div class="job-description">
+                <h2>Sports Representative of Student Council</h2>
+                <small>2021.10 - 2022.12</small>
+                <p>Shanghai Nanyang Model Private School</p>
+                <p>• Conducting the schedule and the outline of the school frisbee, basketball, badminton, and hockey league</p>
+                <p>• Establishing new sports facilities for table tennis, badminton, and frisbee, as well as clubs and teams at our school</p>
+                <p>• Making public speaking before sports events</p>
+                <p>• Writing proposals to the school for new sports activities</p>
+                <p>• Managing the volunteers for school events such as sports day, volunteer jobs, hockey league, and basketball league</p>
+                <span class="right-container-arrow"></span>
+              </div>
+            </div>
+
+            <div class="job-container left-container">
+              <img src="img/logo/isu.jpg" alt="">
+              <div class="job-description">
+                <h2>ISU - Media Manager</h2>
+                <small>2021.6 - 2021.8</small>
+                <p></p>
+                <p>• Conducted a basketball game for international high school students from Shanghai with peers</p>
+                <p>• Recruited team members and completed the task of shooting and editing videos, and assisted in the control of on-site equipment and the transportation of materials</p>
+                <p>• Led 5 team members to organize 3 marketing campaigns and produced promotional videos and advertisements, attracting 8 teams to join within 10 days</p>
+                <span class="left-container-arrow"></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
     </section>
 
     <!-- Contact -->
     <section id="contact">
-    
-        <div class="main-title">Contact Me</div>
-        <!-- <div>Email</div>
-        <div>GitHub</div>
-        <div>LinkedIn</div> -->
-    
+      <div class="main-title">Contact Me</div>
+
+      <div class="card-container">
+        <div class="card" data-aos="fade-in">
+          <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>m69liu@uwaterloo.ca</p>
+        </div>
+
+        <div class="card" data-aos="fade-in">
+          <i class="fab fa-github fa-2x"></i>
+          <h3>GitHub</h3>
+          <a href="https://github.com/rick-mingyu-liu" target="_blank">rick-mingyu-liu</a>
+        </div>
+
+        <div class="card" data-aos="fade-in" data-aos-delay="200">
+          <i class="fab fa-linkedin fa-2x"></i>
+          <h3>LinkedIn</h3>
+          <a href="https://www.linkedin.com/in/rick-mingyu-liu/" target="_blank">Rick (Mingyu) Liu</a>
+        </div>
+
+        <div class="card" data-aos="fade-in">
+          <i class="fab fa-instagram fa-2x"></i>
+          <h3>Instagram</h3>
+          <a href="https://www.instagram.com/rick_mingyu.liu/" target="_blank">rick_mingyu.liu</a>
+        </div>
+
+      </div>
     </section>
+    
   </main>
   <button onclick="topFunction()" id="homeBtn" title="Go to top">Home</button>
   <button onclick="changeTheme()" id="themeBtn" title="Change Theme">
@@ -282,11 +357,13 @@
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
   <script src="js/bottom_buttons.js"></script>
+  <script src="js/moveline.js"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
   <script>
     AOS.init();
   </script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </html>

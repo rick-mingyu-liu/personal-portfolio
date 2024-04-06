@@ -1,6 +1,39 @@
 #contact {
     display: flex;
-    justify-content: center;
+    flex-direction: column; 
+    justify-content: space-around;
     align-items: center;
-    height: 10vh;
+}
+
+.card {
+    flex: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 10px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    background-color: rgb(249, 243, 227);
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p, .card .link {
+    margin-top: 5px;
+}
+
+.card-container .card i {
+    color: blue;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
 }
