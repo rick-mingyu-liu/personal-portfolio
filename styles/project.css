@@ -1,8 +1,7 @@
 #project
 {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
     justify-content: flex-start;
     align-items: center;
 }
@@ -29,6 +28,7 @@
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: italic;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .content
@@ -38,6 +38,7 @@
     justify-content: space-around;
     margin-top: 10px;
     padding: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .project-img {
