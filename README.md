@@ -28,5 +28,5 @@ Notice:
 6) The timeline for the experience section will move forward dynamically for the first time users see it
 7) When hovering the text on the hero section, the text will have shadows
 8) When hovering every container in the project section, the image of the related project will shake
-9) wHen hovering every icons in the skill section, the one users clicked will zoom in
+9) When hovering every icons in the skill section, the one users clicked will zoom in
 10) STILL KEEP IMPROVING!!!!
