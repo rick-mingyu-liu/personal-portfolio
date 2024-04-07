@@ -6,6 +6,7 @@ I used HTML, CSS, and Javascript to make it. It shows all my current projects, s
 ---------------------------------------------------------------------------------------
 
 Acknowledgments:
+---------------------------------------------------------------------------------------
 I used the particles library by Vincent Garreau to achieve the background effect in the hero section
 ---------------------------------------------------------------------------------------
 
