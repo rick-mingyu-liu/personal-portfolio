@@ -9,8 +9,12 @@ I used HTML, CSS, and Javascript to make it. It shows all my current projects, s
 
 Acknowledgments:
 ---------------------------------------------------------------------------------------
-I used the particles library by Vincent Garreau to achieve the background effect in the hero section
-
+1) Particles library by Vincent Garreau - Hero section background
+2) AOS - Scroll animations
+3) Iconify - Icons used
+4) Smtp - Email sending table used
+5) Google Font - Font-family used
+6) SweetAlert - Send animation in Email sending table
 ---------------------------------------------------------------------------------------
 
 First Draft
