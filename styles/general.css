@@ -91,20 +91,26 @@ body
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.window:hover 
+.window:hover,
+.footer:hover,
+.job-description:hover
 {
     background-color: rgba(176, 176, 176, 0.1);
 }
 
-.dark-theme .window 
+.dark-theme .window,
+.dark-theme .footer,
+.dark-theme .job-description
 {
     background-color: rgb(151, 151, 255);
     color: lightgrey;
 }
 
 
-.dark-theme .window:hover 
+.dark-theme .window:hover,
+.dark-theme .footer:hover,
+.dark-theme .job-description:hover
 {
-    background-color: rgba(189, 196, 249, 0.802); /* Lighter color for dark theme */
+    background-color: rgba(150, 161, 241, 0.802); /* Lighter color for dark theme */
 }
   

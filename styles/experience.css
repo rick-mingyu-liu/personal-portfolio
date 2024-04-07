@@ -21,23 +21,6 @@
     width: 50%;
 }
 
-.job-description:hover 
-{
-    background-color: rgba(176, 176, 176, 0.1);
-}
-
-.dark-theme .job-description
-{
-    background-color: rgb(151, 151, 255);
-    color: lightgrey;
-}
-
-
-.dark-theme .job-description:hover 
-{
-    background-color: rgba(189, 196, 249, 0.802); /* Lighter color for dark theme */
-}
-
 .job-description
 {
     padding: 20px 30px;
