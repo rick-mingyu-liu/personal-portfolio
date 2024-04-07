@@ -96,6 +96,12 @@ form button
     border-radius: 20px;
 }
 
+.mess-send:hover 
+{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* .error-txt
 {
     font-size: 14px;

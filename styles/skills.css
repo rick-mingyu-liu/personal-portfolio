@@ -6,7 +6,8 @@
     flex-wrap: wrap;
 }
   
-.skills-icons {
+.skills-icons 
+{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +29,7 @@
     li:hover {
       transform: scale(1.3);
     }
-  }
+}
 
 .skill-item 
 {
