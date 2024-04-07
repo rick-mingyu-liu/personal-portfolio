@@ -70,12 +70,14 @@ body
     text-decoration: none;
 }
 
-.link a {
+.link a 
+{
     color: inherit;   
     text-decoration: none;   
 }
   
-.link a:visited {
+.link a:visited
+{
     color: inherit;
     text-decoration: none;
 }

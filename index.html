@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="styles/experience.css">
   <link rel="stylesheet" href="styles/skills.css">
   <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <!-- animation -->
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <!-- icons -->
@@ -274,11 +275,11 @@
           <div class="timeline">
 
             <div class="job-container left-container">
-              <img src="img/logo/wuxi.jpg" alt="">
+              <img src="img/logo/wuxi.png" alt="">
               <div class="job-description">
                 <h2>Cross-Border Trade Assistant</h2>
                 <small>2023.7 - 2023.9</small>
-                <p>Wuxi Dexin Steel Tube Co. Ltd.</p>
+                <p>Jiangsu Baiheng Energy Saving Technology Co., Ltd.</p>
                 <p>• Went to Shenzhen for a business trip about AI training</p>
                 <p>• Learned how to build Shopify website and built one</p>
                 <p>• Made a summary document about the training and held a teaching session for colleague</p>
@@ -347,7 +348,33 @@
           <a href="https://www.instagram.com/rick_mingyu.liu/" target="_blank">rick_mingyu.liu</a>
         </div>
 
+        <div class="card" data-aos="fade-in">
+          <i class="fab fa-weixin fa-2x"></i>
+          <h3>WeChat</h3>
+          <p>yml334434_6</p>
+        </div>
       </div>
+
+      <div class="direct-contact" data-aos="fade-in">
+        <form>
+          <h3>CONTACT NOW</h3>
+          <input type="text" id="name" class="item" placeholder="Your Name" required>
+          <!-- <div class="error-txt">Name can't be blank</div> -->
+          <input type="email" id="email" class="item" placeholder="Your Email" required >
+          <!-- <div class="error-txt">Email can't be blank</div> -->
+          <input type="subject" id="subject" class="item" placeholder="Subject" required >
+          <!-- <div class="error-txt">Subject can't be blank</div> -->
+          <textarea id="message" row="8" class="item" placeholder="Your Message" required></textarea>
+          <!-- <div class="error-txt">Message can't be blank</div> -->
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>© 2024 Rick (Mingyu) Liu.</p>
+      <p>Waterloo, Ontario, Canada</p>
+      <p>Email: m69liu@uwaterloo.ca | Phone: +1 (226)899-9586</p>
     </section>
     
   </main>
@@ -358,12 +385,14 @@
   <script src="js/app.js"></script>
   <script src="js/bottom_buttons.js"></script>
   <script src="js/moveline.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script> 
+  <script src="js/sendEmail.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> 
   <script>
     AOS.init();
   </script>
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </html>
