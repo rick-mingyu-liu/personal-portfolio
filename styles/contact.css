@@ -53,7 +53,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     transition: transform 0.3s ease;
 }
 
@@ -66,6 +65,7 @@ form
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 form h3
@@ -110,15 +110,12 @@ form button
     display: none;
 } */
 
-.mess-send {
-    transition: transform 0.2s ease-in-out !important;
-}
-
 .mess-send:hover {
     transform: scale(1.2) !important;
 }
 
-.card {
+.card,
+.mess-send {
     transition: transform 0.2s ease-in-out !important;
 }
 
