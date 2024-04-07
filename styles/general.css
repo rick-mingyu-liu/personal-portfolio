@@ -16,7 +16,7 @@ body
     height: auto;
 }
 
-#homeBtn 
+#homeBtn
 {
     position: fixed; 
     bottom: 20px; 
@@ -30,12 +30,7 @@ body
     padding: 15px; 
     border-radius: 10px; 
     font-size: 18px; 
-    font-family: Bebas Neue;;
-}
-  
-#homeBtn:hover
-{
-        background-color: #555;
+    font-family: Bebas Neue;
 }
 
 #themeBtn 
@@ -53,35 +48,26 @@ body
     font-size: 18px; 
 }
   
+  
+#homeBtn:hover,
 #themeBtn:hover 
 {
-    background-color: #555; /* Add a dark-grey background on hover */
+        background-color: #555;
 }
 
-.link
-{
-    color: inherit;   
-    text-decoration: none;   
-}
-  
-.link:visited 
-{
-    color: inherit;
-    text-decoration: none;
-}
-
+.link,
 .link a 
 {
     color: inherit;   
     text-decoration: none;   
 }
   
-.link a:visited
+.link:visited,
+.link a:visited 
 {
     color: inherit;
     text-decoration: none;
 }
-
 
 .window
 {
