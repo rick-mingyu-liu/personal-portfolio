@@ -19,6 +19,7 @@
     align-items: center; 
     text-align: center; 
     background-color: rgb(249, 243, 227);
+    cursor: pointer;
 }
 
 .card h3 
@@ -42,6 +43,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .direct-contact
@@ -51,6 +53,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
 form
@@ -96,12 +100,6 @@ form button
     border-radius: 20px;
 }
 
-.mess-send:hover 
-{
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
-}
-
 /* .error-txt
 {
     font-size: 14px;
@@ -111,3 +109,19 @@ form button
     margin-top: 4px;
     display: none;
 } */
+
+.mess-send {
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.mess-send:hover {
+    transform: scale(1.2) !important;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out !important;
+}
+
+.card:hover {
+    transform: scale(1.1) !important;
+}

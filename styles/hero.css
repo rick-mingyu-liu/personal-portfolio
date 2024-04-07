@@ -111,12 +111,12 @@
     padding: 10px;
     border: solid;
     background-color:rgb(0, 183, 255);
+    transition: transform 0.2s ease-in-out ;
 }
 
-.linkedin:hover {
-    color: #0011ff;
-    text-shadow: 10px 10px 12px rgba(6, 143, 255, 0.8);
-    transition: color 0.3s
+.linkedin:hover,
+.github:hover {
+    transform: scale(1.1) ;
 }
 
 .github
@@ -127,10 +127,5 @@
     padding: 10px;
     border: solid; 
     background-color: #1f2328;
-}
-
-.github:hover {
-    color: #00ccff;
-    text-shadow: 10px 10px 12px rgba(255, 255, 255, 0.8);
-    transition: color 0.3s
+    transition: transform 0.2s ease-in-out
 }

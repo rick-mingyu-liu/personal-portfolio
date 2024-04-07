@@ -31,6 +31,7 @@ body
     border-radius: 10px; 
     font-size: 18px; 
     font-family: Bebas Neue;
+    transition: transform 0.2s ease-in-out !important;
 }
 
 #themeBtn 
@@ -45,7 +46,8 @@ body
     cursor: pointer; 
     padding: 15px; 
     border-radius: 10px; 
-    font-size: 18px; 
+    font-size: 18px;
+    transition: transform 0.2s ease-in-out !important; 
 }
   
   
@@ -53,6 +55,7 @@ body
 #themeBtn:hover 
 {
         background-color: #555;
+        transform: scale(1.1);
 }
 
 .link,
@@ -74,7 +77,7 @@ body
     margin: 50px 150px;
     background-color: rgb(249, 243, 227);
     border-radius: 40px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease !important;
 }
 
 .window:hover,
