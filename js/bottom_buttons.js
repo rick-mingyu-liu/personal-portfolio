@@ -4,10 +4,38 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    topButton.style.display = "block";
+    if (topButton.style.display !== "block") {
+      fadeIn(topButton);
+    }
   } else {
-    topButton.style.display = "none";
+    if (topButton.style.display !== "none") {
+      fadeOut(topButton);
+    }
   }
+}
+
+function fadeIn(element) {
+  var op = 0.1;  
+  element.style.display = 'block';
+  var timer = setInterval(function () {
+    if (op >= 1){
+      clearInterval(timer);
+    }
+    element.style.opacity = op;
+    op += op * 0.1;
+  }, 10);
+}
+
+function fadeOut(element) {
+  var op = 1; 
+  var timer = setInterval(function () {
+    if (op <= 0.1){
+      clearInterval(timer);
+      element.style.display = 'none';
+    }
+    element.style.opacity = op;
+    op -= op * 0.1;
+  }, 10);
 }
 
 function topFunction() {
@@ -32,3 +60,4 @@ function changeTheme() {
     darkTheme = true;
   }
 }
+

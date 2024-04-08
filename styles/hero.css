@@ -1,7 +1,7 @@
 #particles-js
 {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     background: linear-gradient(to bottom, #000000, #313131); 
     z-index: -1;
 }
@@ -128,4 +128,21 @@
     border: solid; 
     background-color: #1f2328;
     transition: transform 0.2s ease-in-out
+}
+
+.hero-timeline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 80%; 
+    width: 5px; 
+    height: 0;
+    background-color: gray; 
+    animation: grow 2s forwards;
+}
+
+@keyframes grow {
+    to {
+        height: 120px;
+    }
 }

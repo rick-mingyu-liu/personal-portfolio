@@ -48,7 +48,7 @@
   <header id="top">
     <div id="particles-js">
       <!-- navigation bar -->
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="2000">
         <nav>
           <ul>
             <li><a class = "link" href="#project">Projects</a></li>
@@ -59,26 +59,28 @@
         </nav>
       </div>
       <!-- hero section -->
-      <div>
-        <img id="profile-pic" src="img/profile-pic.jpg" alt="profile-pic">
-        <span id="wave-hand">👋</span>
-      </div>
-      <div>
+      <div id="hero" class="hero-timeline">
         <div>
-          <h1 class="greeting">Hi, I'm Rick</h1>
+          <img id="profile-pic" src="img/profile-pic.jpg" alt="profile-pic" data-aos="fade-up" data-aos-duration="2000">
+          <span id="wave-hand">👋</span>
         </div>
         <div>
-          <h2 class="intro">Math Student @ University of Waterloo</h2>
-          <h3 class="intro">Looking for co-op in Fall 2024</h3>
+          <div>
+            <h1 class="greeting" data-aos="fade-up" data-aos-duration="2000">Hi, I'm Rick</h1>
+          </div>
+          <div>
+            <h2 class="intro" data-aos="fade-up" data-aos-duration="2000">Math Student @ University of Waterloo</h2>
+            <h3 class="intro" data-aos="fade-up" data-aos-duration="2000">Looking for co-op in Fall 2024</h3>
+          </div>
         </div>
-      </div>
+      </div>  
       <!-- buttons -->
       <div id="hero-buttons">
-        <a class="linkedin" href="https://www.linkedin.com/in/rick-mingyu-liu/" target="_blank">
-          <i class="fab fa-linkedin fa-2x"> LinkedIn</i>
+        <a class="linkedin" href="https://www.linkedin.com/in/rick-mingyu-liu/" target="_blank" data-aos="fade-up" data-aos-duration="2000">
+          <i class="fab fa-linkedin fa-2x" > LinkedIn</i>
         </a>
-        <a class="github" href="https://github.com/rick-mingyu-liu" target="_blank">
-          <i class="fab fa-github fa-2x"> GitHub</i>
+        <a class="github" href="https://github.com/rick-mingyu-liu" target="_blank" data-aos="fade-up" data-aos-duration="2000">
+          <i class="fab fa-github fa-2x" > GitHub</i>
         </a>
       </div>
     </div>
@@ -87,102 +89,110 @@
   <main>
     <!-- Projects -->
     <section id="project" class="grid-container">
-      <div class="main-title">My Projects</div>
+      <div class="main-title" data-aos="fade-up">My Projects</div>
 
-      <div class="window" data-aos="fade-up">
-        <div class="sub-title">Personal Website
-          <div class="content">
-            <div class="vertical-container">
-              <ul class="tech-stack-list">
-                <p>Made with:</p>
-                <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
-              </ul>
-              <div class="description">This is a personal website that I created to showcase my projects and experiences. I used HTML, CSS, and JavaScript to create this website.</div>
-              <div class="project-links link">
-                <a href="#top" class="project-link-button">
-                  <i class="fas fa-external-link-alt"></i> Live</a>
-                <a href="https://github.com/rick-mingyu-liu/personal-website" class="project-link-button" target="_blank">
-                  <i class="fab fa-github"></i> Code</a>
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <div class="window">
+          <div class="sub-title">Personal Website
+            <div class="content">
+              <div class="vertical-container">
+                <ul class="tech-stack-list">
+                  <p>Made with:</p>
+                  <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
+                </ul>
+                <div class="description">This is a personal website that I created to showcase my projects and experiences. I used HTML, CSS, and JavaScript to create this website.</div>
+                <div class="project-links link">
+                  <a href="#top" class="project-link-button">
+                    <i class="fas fa-external-link-alt"></i> Live</a>
+                  <a href="https://github.com/rick-mingyu-liu/personal-website" class="project-link-button" target="_blank">
+                    <i class="fab fa-github"></i> Code</a>
+                </div>
               </div>
-            </div>
-            <div class="project-img">
-              <img src="/img/personal-web.png" alt="">
+              <div class="project-img">
+                <img src="/img/personal-web.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="window" data-aos="fade-up">
-        <div class="sub-title">Rock-Paper-Scissors
-          <div class="content">
-            <div class="vertical-container">
-              <ul class="tech-stack-list">
-                <p>Made with:</p>
-                <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
-              </ul>
-              <div class="description">This is a Rock-Paper-Scissors game that I created to show the use of javascript in terms of user-interactions. It also has a function of autoplay that the computer will play it by itself unless users click the button again. I used HTML, CSS, and JavaScript to create this website.</div>
-              <div class="project-links link">
-                <a href="https://rick-mingyu-liu.github.io/rock-paper-scissors/" class="project-link-button" target="_blank">
-                  <i class="fas fa-external-link-alt"></i> Live</a>
-                <a href="https://github.com/rick-mingyu-liu/rock-paper-scissors" class="project-link-button" target="_blank">
-                  <i class="fab fa-github"></i> Code</a>
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <div class="window" data-aos="fade-up">
+          <div class="sub-title">Rock-Paper-Scissors
+            <div class="content">
+              <div class="vertical-container">
+                <ul class="tech-stack-list">
+                  <p>Made with:</p>
+                  <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
+                </ul>
+                <div class="description">This is a Rock-Paper-Scissors game that I created to show the use of javascript in terms of user-interactions. It also has a function of autoplay that the computer will play it by itself unless users click the button again. I used HTML, CSS, and JavaScript to create this website.</div>
+                <div class="project-links link">
+                  <a href="https://rick-mingyu-liu.github.io/rock-paper-scissors/" class="project-link-button" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live</a>
+                  <a href="https://github.com/rick-mingyu-liu/rock-paper-scissors" class="project-link-button" target="_blank">
+                    <i class="fab fa-github"></i> Code</a>
+                </div>
               </div>
-            </div>
-            <div class="project-img">
-              <img src="/img/rock-paper.png" alt="">
+              <div class="project-img">
+                <img src="/img/rock-paper.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="window" data-aos="fade-up">
-        <div class="sub-title">YouTube Clone
-          <div class="content">
-            <div class="vertical-container">
-              <ul class="tech-stack-list">
-                <p>Made with:</p>
-                <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
-              </ul>
-              <div class="description">This is a clone of my YouTube page. I used HTML and CSS to create this website.</div>
-              <div class="project-links link">
-                <a href="https://rick-mingyu-liu.github.io/youtube.clone/" class="project-link-button" target="_blank">
-                  <i class="fas fa-external-link-alt"></i> Live</a>
-                <a href="https://github.com/rick-mingyu-liu/youtube.clone" class="project-link-button" target="_blank">
-                  <i class="fab fa-github"></i> Code</a>
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <div class="window" data-aos="fade-up">
+          <div class="sub-title">YouTube Clone
+            <div class="content">
+              <div class="vertical-container">
+                <ul class="tech-stack-list">
+                  <p>Made with:</p>
+                  <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
+                </ul>
+                <div class="description">This is a clone of my YouTube page. I used HTML and CSS to create this website.</div>
+                <div class="project-links link">
+                  <a href="https://rick-mingyu-liu.github.io/youtube.clone/" class="project-link-button" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live</a>
+                  <a href="https://github.com/rick-mingyu-liu/youtube.clone" class="project-link-button" target="_blank">
+                    <i class="fab fa-github"></i> Code</a>
+                </div>
               </div>
-            </div>
-            <div class="project-img">
-              <img src="/img/youtube.clone.png" alt="">
+              <div class="project-img">
+                <img src="/img/youtube.clone.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
-     
-      <div class="window" data-aos="fade-up">
-        <div class="sub-title">Calculator
-          <div class="content">
-            <div class="vertical-container">
-              <ul class="tech-stack-list">
-                <p>Made with:</p>
-                <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
-                <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
-              </ul>
-              <div class="description">This is a online Calculator that I created to show the user-interactions of javascript. I used JavaScript, HTML, and CSS to create this website.</div>
-              <div class="project-links link">
-                <a href="https://rick-mingyu-liu.github.io/calculator/" class="project-link-button" target="_blank">
-                  <i class="fas fa-external-link-alt"></i> Live</a>
-                <a href="https://github.com/rick-mingyu-liu/calculator" class="project-link-button" target="_blank">
-                  <i class="fab fa-github"></i> Code</a>
+      
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <div class="window" data-aos="fade-up">
+          <div class="sub-title">Calculator
+            <div class="content">
+              <div class="vertical-container">
+                <ul class="tech-stack-list">
+                  <p>Made with:</p>
+                  <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:html-5" data-inline="false"></span></li>
+                  <li><span class="iconify" data-icon="logos:css-3" data-inline="false"></span></li>
+                </ul>
+                <div class="description">This is a online Calculator that I created to show the user-interactions of javascript. I used JavaScript, HTML, and CSS to create this website.</div>
+                <div class="project-links link">
+                  <a href="https://rick-mingyu-liu.github.io/calculator/" class="project-link-button" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Live</a>
+                  <a href="https://github.com/rick-mingyu-liu/calculator" class="project-link-button" target="_blank">
+                    <i class="fab fa-github"></i> Code</a>
+                </div>
               </div>
-            </div>
-            <div class="project-img">
-              <img src="/img/calculator.png" alt="">
+              <div class="project-img">
+                <img src="/img/calculator.png" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -192,85 +202,85 @@
     
     <!-- Skills -->
   <section id="skills">
-    <div class="main-title">My Skills</div>
-    <div class="window" data-aos="fade-in"> 
-      <div class="skills-intro">
-        <p>I'm always looking to expand my skills with new technologies and languages!</p>
+    <div class="main-title" data-aos="fade-up">My Skills</div>
+    <div data-aos="fade-up" data-aos-duration="1500">
+      <div class="window" data-aos="fade-in"> 
+        <div class="skills-intro">
+          <p>I'm always looking to expand my skills with new technologies and languages!</p>
+        </div>
+        <ul class="skills-icons">
+          
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">JavaScript</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:python" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">Python</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">HTML</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">CSS</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">Git</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:c" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">C</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:c-plusplus" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">C++</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="flat-color-icons:linux" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">Linux</span>
+            </div>
+          </li>  
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:r-lang" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">R</span>
+            </div>
+          </li>
+
+          <li>
+            <div class="skill-item">
+              <span class="iconify" data-icon="logos:shopify" data-inline="false" data-width="90px" data-height="90px"></span>
+              <span class="icon-name">Shopify</span>
+            </div>
+          </li>     
+        </ul>
       </div>
-      <ul class="skills-icons">
-        
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">JavaScript</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:python" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">Python</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">HTML</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">CSS</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">Git</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:c" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">C</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:c-plusplus" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">C++</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="flat-color-icons:linux" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">Linux</span>
-          </div>
-        </li>  
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:r-lang" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">R</span>
-          </div>
-        </li>
-
-        <li>
-          <div class="skill-item">
-            <span class="iconify" data-icon="logos:shopify" data-inline="false" data-width="90px" data-height="90px"></span>
-            <span class="icon-name">Shopify</span>
-          </div>
-        </li>     
-        
-        
-      </ul>
     </div>
     
   </section>
@@ -278,7 +288,7 @@
     <!-- Experience -->
     
     <section id="experience">
-      <div class="main-title">My Experience</div>
+      <div class="main-title" data-aos="fade-up">My Experience</div>
         <div data-aos="fade-in"> 
           <div class="timeline">
 
@@ -329,34 +339,34 @@
 
     <!-- Contact -->
     <section id="contact">
-      <div class="main-title">Contact Me</div>
+      <div class="main-title" data-aos="fade-up">Contact Me</div>
 
       <div class="card-container">
-        <div class="card" data-aos="fade-in">
+        <div class="card" data-aos="fade-up">
           <i class="fas fa-envelope fa-2x"></i>
             <h3>Email</h3>
             <p>m69liu@uwaterloo.ca</p>
         </div>
 
-        <div class="card" data-aos="fade-in" data-aos-delay="200">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <i class="fab fa-github fa-2x"></i>
           <h3>GitHub</h3>
           <a href="https://github.com/rick-mingyu-liu" target="_blank">rick-mingyu-liu</a>
         </div>
 
-        <div class="card" data-aos="fade-in" data-aos-delay="200">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <i class="fab fa-linkedin fa-2x"></i>
           <h3>LinkedIn</h3>
           <a href="https://www.linkedin.com/in/rick-mingyu-liu/" target="_blank">Rick (Mingyu) Liu</a>
         </div>
 
-        <div class="card" data-aos="fade-in" data-aos-delay="200">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <i class="fab fa-instagram fa-2x"></i>
           <h3>Instagram</h3>
           <a href="https://www.instagram.com/rick_mingyu.liu/" target="_blank">rick_mingyu.liu</a>
         </div>
 
-        <div class="card" data-aos="fade-in" data-aos-delay="200">
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
           <i class="fab fa-weixin fa-2x"></i>
           <h3>WeChat</h3>
           <p>yml334434_6</p>
@@ -388,7 +398,9 @@
     
   <button onclick="topFunction()" id="homeBtn" title="Go to top">Home</button>
   <button onclick="changeTheme()" id="themeBtn" title="Change Theme">
-    <span id="themeIcon">🌙</span></button>
+    <span id="themeIcon">🌙</span>
+  </button>
+  
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
   <script src="js/bottom_buttons.js"></script>
