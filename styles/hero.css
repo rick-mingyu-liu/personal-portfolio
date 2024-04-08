@@ -45,6 +45,20 @@
     max-height: 100px; 
     border-radius: 100%; 
     border: 5px solid white;
+    animation: bumpOut 0.5s ease-in-out;
+}
+
+@keyframes bumpOut 
+{
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.4);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
 }
 
 #wave-hand 
@@ -130,7 +144,8 @@
     transition: transform 0.1s ease-in-out
 }
 
-.hero-timeline::after {
+.hero-timeline::after 
+{
     content: "";
     position: absolute;
     left: 50%;
@@ -141,8 +156,23 @@
     animation: grow 2s forwards;
 }
 
-@keyframes grow {
+@keyframes grow 
+{
     to {
         height: 120px;
     }
+}
+
+@keyframes zoomIn 
+{
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .wave {
+    animation: zoomIn 1s ease-out;
 }
