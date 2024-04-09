@@ -1,0 +1,30 @@
+{
+  "name": "personal-web",
+  "version": "1.0.0",
+  "description": "this web is a personal portfolio to show my skills and projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-mingyu-liu/personal-website.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal",
+    "web",
+    "development",
+    "projects",
+    "skills"
+  ],
+  "author": "Rick Mingyu Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rick-mingyu-liu/personal-website/issues"
+  },
+  "homepage": "https://github.com/rick-mingyu-liu/personal-website#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
