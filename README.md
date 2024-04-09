@@ -42,6 +42,7 @@ Notice:
 
 Third Draft
 ---------------------------------------------------------------------------------------
+Notice:
 1) The "CONTACT NOW" table on the bottom of the page has input limit to prevent web crashing
 2) Prevent web crawler to a certain extent using npm
 3) Prevent bad people sending tons of junk email, limit the frequency to up to 10 emails every hour
