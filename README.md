@@ -38,3 +38,4 @@ Notice:
 3) Improve the animations for grids and texts so that the transition is more smooth
 4) The "CONTACT NOW" table on the bottom of the page has input limit to prevent web crashing
 5) Add animation on the main titles for each sections
+6) Prevent web crawler to a certain extent using npm
