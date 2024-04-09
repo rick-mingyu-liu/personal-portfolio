@@ -80,7 +80,8 @@
     justify-content: center;
 }
 
-.greeting {
+.greeting 
+{
     font-family: 'Montserrat', sans-serif;
     font-size: 100px; /* Default font size */
     color: #fff;
@@ -88,20 +89,11 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.intro {
+.intro 
+{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px; /* Default font size */
     color: #fff;
-}
-
-@media screen and (max-width: 500px) {
-    .greeting {
-        font-size: 40px; /* Adjust font size for smaller screens */
-    }
-    
-    .intro {
-        font-size: 10px; /* Adjust font size for smaller screens */
-    }
 }
 
 .greeting:hover {
@@ -175,4 +167,29 @@
   
   .wave {
     animation: zoomIn 1s ease-out;
+}
+
+@media only screen and (max-width: 850px) 
+{
+    .greeting {
+        font-size: 60px !important; 
+    }
+    .linkedin, 
+    .github{
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1150px) 
+{
+    .intro {
+        font-size: 20px !important; 
+    }
+}
+
+@media only screen and (max-width: 900px) 
+{
+    .intro {
+        font-size: 14px !important; 
+    }
 }

@@ -123,17 +123,6 @@
     border-top: 15px solid transparent; 
 }
 
-.left-container-arrow
-{
-    border-left: 15px solid  rgb(249, 243, 227);
-    right: -15px;
-}
-
-.right-container-arrow
-{
-    border-right: 15px solid  rgb(249, 243, 227);
-    left: -15px;
-}
 
 @media screen and (max-width: 600px)
 {
@@ -143,7 +132,7 @@
     }
     .timeline::after
     {
-        left: 31%;
+        left: 10%;
     }
     .job-container
     {
@@ -159,18 +148,16 @@
     {
         margin-bottom: 10px;
     }
-    .right-container img
+    .right-container
     {
         left: 0%;
     }
-    .left-container img, .right-container img
+    .left-container img
     {
-        left: 10px;
+        left: 15px;
     }
-    .left-container-arrow, .right-container-arrow
+    .right-container img
     {
-        border-right: 15px solid  rgb(249, 243, 227);
-        border-left: 0;
-        left: -15px;
+        left: 2%;
     }
 }
