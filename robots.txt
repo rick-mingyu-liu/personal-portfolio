@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /js/server.js
+Disallow: /js/sendEmail.js
