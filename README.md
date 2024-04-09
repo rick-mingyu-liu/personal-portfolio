@@ -40,3 +40,5 @@ Notice:
 5) Add animation on the main titles for each sections
 6) Prevent web crawler to a certain extent using npm
 7) Prevent bad people sending tons of junk email, limit the frequency to up to 10 emails every hour
+8) Create a robots.txt file to inform the people who use spiders
+9) OVERALL, THIS VERSION IS MAINLY AIM AT WEB SECURITY
