@@ -29,6 +29,7 @@ Notice:
 7) When hovering every container in the project section, the image of the related project will shake
 8) When hovering every icons in the skill section, the one users clicked will zoom in
 9) The "CONTACT NOW" table can receive the messages from users
+10) OVERALL, THIS VERSION INCLUDES ALL THE FUNDAMENTAL CONTENT OF THIS WEB
 
 Second Draft
 ---------------------------------------------------------------------------------------
@@ -36,6 +37,13 @@ Notice:
 1) Reorganize the hero page's layout
 2) Add the animation on the hero page when users first click in the page
 3) Improve the animations for grids and texts so that the transition is more smooth
-4) The "CONTACT NOW" table on the bottom of the page has input limit to prevent web crashing
-5) Add animation on the main titles for each sections
-6) Prevent web crawler to a certain extent using npm
+4) Add animation on the main titles for each sections
+5) OVERALL, THIS VERSION IS MAINLY AIM AT EFFECT IMPROVEMENT
+
+Third Draft
+---------------------------------------------------------------------------------------
+1) The "CONTACT NOW" table on the bottom of the page has input limit to prevent web crashing
+2) Prevent web crawler to a certain extent using npm
+3) Prevent bad people sending tons of junk email, limit the frequency to up to 10 emails every hour
+4) Create a robots.txt file to inform the people who use spiders
+5) OVERALL, THIS VERSION IS MAINLY AIM AT WEB SECURITY
