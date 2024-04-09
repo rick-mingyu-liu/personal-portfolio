@@ -39,3 +39,4 @@ Notice:
 4) The "CONTACT NOW" table on the bottom of the page has input limit to prevent web crashing
 5) Add animation on the main titles for each sections
 6) Prevent web crawler to a certain extent using npm
+7) Prevent bad people sending tons of junk email, set the limit to up to 10 emails every hour
