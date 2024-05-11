@@ -4,18 +4,18 @@ const email = document.getElementById('email');
 const subject = document.getElementById('subject');
 const mess = document.getElementById('message');
 
-let emailCount = 0;
-const emailLimit = 10;
+// let emailCount = 0;
+// const emailLimit = 10;
 
-function resetEmailCount() {
-    emailCount = 0;
-}
+// function resetEmailCount() {
+//     emailCount = 0;
+// }
 
 function sendEmail() {
-    if (emailCount >= emailLimit) {
-        console.log('Email limit reached');
-        return;
-    }
+    // if (emailCount >= emailLimit) {
+    //     console.log('Email limit reached');
+    //     return;
+    // }
     const bodyMessage = `Full Name: ${fullName.value} <br>
     Email: ${email.value} <br> message: ${mess.value}`;
 
@@ -36,8 +36,8 @@ function sendEmail() {
         }
       }
     );
-    emailCount++;
-    setTimeout(resetEmailCount, 60 * 60 * 1000);
+    // emailCount++;
+    // setTimeout(resetEmailCount, 60 * 60 * 1000);
 }
 
 function checkInputs() {
@@ -61,13 +61,13 @@ function checkInputs() {
     }
 }
 
-function sendEmail() {
-    if (emailCount >= emailLimit) {
-        console.log('Email limit reached');
-        return;
-    }
-    emailCount++;
-}
+// function sendEmail() {
+//     if (emailCount >= emailLimit) {
+//         console.log('Email limit reached');
+//         return;
+//     }
+//     emailCount++;
+// }
 
 
 form.addEventListener('submit', (e) => {
@@ -75,9 +75,9 @@ form.addEventListener('submit', (e) => {
     checkInputs();
     // sendEmail();
 
-    if (!fullName.classList.contains('error') && !email.classList.contains('error')) {
-        sendEmail();
-    }
+    // if (!fullName.classList.contains('error') && !email.classList.contains('error')) {
+    //     sendEmail();
+    // }
 
     if (!fullName.classList.contains('error') && !email.classList.contains('error') 
         && !subject.classList.contains('error') 
