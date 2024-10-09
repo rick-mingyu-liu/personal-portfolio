@@ -3,7 +3,12 @@ Description
 You can view this website online via https://rickmingyuliu.com/
 ---------------------------------------------------------------------------------------
 This is a personal digital portfolio that created and designed by myself.
-I used HTML, CSS, and Javascript to make it. It shows all my current projects, skills, and experience!
+
+- Engineered a dynamic and engaging user interface by integrating Vincent Garreau’s Particles and SweetAlert libraries for interactive backgrounds and animations, coupled with CSS for seamless UI transitions and Iconify for icon images in the skills section, enhancing visual appeal and functionality
+- Advanced the site's interactivity and functionality using JavaScript to implement a self-scrolling timeline, an email frequency limiter to prevent spam, and a theme toggle to switch between light and dark modes
+- Enhanced website navigation and search engine optimization adding a home navigation button along with a top navigation bar, improving user flow and search engine performance
+- Implemented a robots.txt file to guide web crawlers, optimizing site interaction for users employing search engine spiders and enhancing website traffic management
+- Leveraged Google Analytics for comprehensive traffic analysis, identifying over 1,200 global interactions; significantly contributed to the site's codebase with 60 commits and 700 lines of code
 
 ---------------------------------------------------------------------------------------
 I WILL KEEP UPDATING WHEN NEEDED :)!!!
